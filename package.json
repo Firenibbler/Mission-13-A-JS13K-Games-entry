@@ -1,0 +1,23 @@
+{
+    "author": "Firenibbler Studios",
+    "name": "Lost In Space 2.0",
+    "version": "2.0.0",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-nodeunit": "~0.4.1",
+        "grunt-contrib-obfuscator": "^4.0.0",
+        "grunt-contrib-uglify": "^2.0.0",
+        "grunt-jsdoc": "^2.1.0",
+        "grunt-obfuscator": "^0.1.0"
+    },
+    "description": "Version 2.0.0",
+    "main": "Gruntfile.js",
+    "directories": {
+        "doc": "out",
+        "example": "examples"
+    },
+    "scripts": {
+        "test": "grunt min"
+    }
+}
